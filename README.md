@@ -1,7 +1,5 @@
 # Face Image Merging Project
 
-![Face Merging](example_merged_face.png)
-
 Welcome to the **Face Image Merging Project** repository! This project demonstrates a quick and fun experiment where two images of people's faces are merged into one using the Face-SPARNet repository. This repository contains the necessary files and scripts to perform this task.
 
 ## Project Overview
@@ -32,9 +30,9 @@ pip install -r requirements.txt
 
 3. Prepare two images of people's faces that you want to merge. Make sure they are in a compatible format, such as JPEG or PNG.
 
-4. Open the `mergefaces.py` script and update the file paths of the input images in the `image_path1` and `image_path2` variables.
+4. Open the `mergefaces.py` script and update the file paths of the input images in the setOfNames list.
 
-5. Run the `mergefaces.py` script using Python. This will merge the two input images and save the result as `output.png` in the same directory.
+5. Run the `mergefaces.py` script using Python. This will merge the input images and display them.
 
 6. Check the `output.png` file to see the merged image of the two faces.
 
